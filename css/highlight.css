@@ -1,0 +1,39 @@
+code {
+  background-color: #262626;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 8px 0px 8px #555555;
+  margin: 8px;
+}
+
+.err {
+  background-color: #CE2424;
+  color: white;
+}
+
+.x, .n, .g, .p { /* General */
+  color: #D8D8D8;
+}
+
+.k { /* Keyword */
+  color: #44AFC1;
+}
+
+.s { /* Literal String */
+  color: #5AB25B;
+}
+
+.m { /* Number */
+  color: #C1A944;
+}
+
+.o, .ow { /* Operator */
+  color: #C14481;
+}
+
+
+.c, .cm { /* Comment */
+  color: #DDD;
+  font-style: italic;
+}
