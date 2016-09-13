@@ -1,4 +1,4 @@
 ---
-layout: tutorial
+layout: tutorial_index
 ---
-Boo
+1. [Installation]({{site.baseurl}}/tutorial/01_install.html "Installation")
