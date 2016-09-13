@@ -1,10 +1,12 @@
 code {
   background-color: #262626;
-  display: inline-block;
+  display: block;
   padding: 5px;
   border-radius: 8px;
   box-shadow: 8px 0px 8px #555555;
   margin: 8px;
+  width: 97%;
+  align:center;
 }
 
 .err {
