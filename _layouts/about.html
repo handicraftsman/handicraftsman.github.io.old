@@ -1,0 +1,25 @@
+{% include head.html %}
+{% include headerbar.html type="about" %}
+<div class="w3-card-4 w3-margin">
+  <header class="w3-container w3-theme-d4">
+    <h2 class="w3-margin-0">
+      <i class="fa fa-info-circle" style="font-size: 90%"></i> About
+    </h2>
+  </header>
+  <section class="w3-container">
+    <p>
+      {{content}}
+    </p>
+  </section>
+  <footer class="w3-container w3-theme-d5">
+    <p class="w3-margin-0"><i>
+      Powered by
+        <a href="https://shopify.github.io/liquid/" alt="Jekyll"><i class="fa fa-server"> Jekyll</i></a>,
+        <a href="https://jekyllrb.com/" alt="Liquid"><i class="fa fa-flask"> Liquid</i></a>,
+        <a href="https://pages.github.com/" alt="GitHub Pages"><i class="fa fa-github"> GitHub Pages</i></a>,
+        <a href="http://www.w3schools.com/w3css/default.asp" alt="W3.CSS"><i class="fa fa-css3"> W3.CSS</i></a> and
+        <a href="http://fontawesome.io" alt="Font Awesome"><i class="fa fa-font-awesome"> Font Awesome</i></a>
+    </i></p>
+  </footer>
+</div>
+{% include footer.html %}

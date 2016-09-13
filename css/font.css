@@ -1,0 +1,8 @@
+@font-face {
+  font-family: firaCode;
+  src: url(/gogling/font/fira-code.woff);
+}
+
+body {
+  font-family: firaCode
+}
