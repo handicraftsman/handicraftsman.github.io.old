@@ -9,6 +9,7 @@ or do this via your package manager.
 ### Step 2 - download Gogling:
 You can check releases by following [this](https://github.com/handicraftsman/gogling/releases) link
 or clone repo as shown below:
+
 ```bash
 $ git clone https://github.com/handicraftsman/gogling
 $ cd gogling
@@ -16,6 +17,7 @@ $ cd gogling
 
 ### Step 3 - build Gogling:
 Just run this:
+
 ```bash
 $ make build
 # or:
@@ -24,10 +26,12 @@ $ make run
 
 ### Step 4 - run Gogling:
 Last step:
+
 ```bash
 $ ./gogling
 ```
 You should see in console something like this:
+
 ```
 go build -o "gogling" src/*.go
 ./gogling
@@ -48,6 +52,7 @@ Open [127.0.0.1:8080](http://127.0.0.1:8080) in your browser. You should see som
 ### Some notes:
 1. It's build-system is designed for GNU/Linux. I don't have PC with Windows/Mac
 2. You can combine last 2 steps (3&4) by running:
+
 ```bash
   $ make br
 ```
