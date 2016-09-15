@@ -3,5 +3,9 @@ body {
 }
 
 section {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
+}
+
+img {
+  width: 100%
 }
