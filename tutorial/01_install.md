@@ -42,7 +42,7 @@ go build -o "gogling" src/*.go
 ### Testing:
 Open [127.0.0.1:8080](http://127.0.0.1:8080) in your browser. You should see something like this:
 
-<img class="w3-card-4" alt="Gogling's Demo" src="{{site.baseurl}}/img/gogling-tutor-1-1.png">
+<img class="w3-card-4 s-image" alt="Gogling's Demo" src="{{site.baseurl}}/img/gogling-tutor-1-1.png">
 
 
 ### Some notes:
