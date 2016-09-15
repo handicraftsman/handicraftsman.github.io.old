@@ -12,7 +12,7 @@ layout: index
 
 #### It is really simple!
 ```bash
-  # Download Gogling - via github's master branch
+  # Clone Gogling's master branch
   git clone https://github.com/handicraftsman/gogling
   cd gogling
   # Build and run it
