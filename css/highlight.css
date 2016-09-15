@@ -1,6 +1,6 @@
 code {
   background-color: #262626;
-  display: block;
+  display: inline-block;
   padding: 5px;
   border-radius: 8px;
   box-shadow: 8px 0px 8px #555555;
