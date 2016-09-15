@@ -10,15 +10,3 @@ Currently Gogling is written in Go. It supports running Lua scripts for generati
 dynamic pages.
 
 Ahh... Also... This site is currently WIP
-
-```lua
--- hello.lua
-local net = require("gogling.net")
-net.init()
-net.echo("Hello, world!")
-```
-
-```bash
-$ curl http://localhost:8080/hello.lua
-Hello, world!
-```
