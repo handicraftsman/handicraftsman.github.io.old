@@ -9,5 +9,6 @@ gems:
  - jekyll-coffeescript
  - jekyll-sass-converter
 sass:
-    style: compressed
+  sass_dir: cuil
+  style: compressed
 markdown: kramdown
