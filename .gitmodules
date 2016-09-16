@@ -1,4 +1,4 @@
 [submodule "cuil"]
 	path = cuil
-	url = git@github.com:handicraftsman/cuil.git
+	url = https://github.com/handicraftsman/cuil
 	branch = master
