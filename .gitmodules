@@ -1,0 +1,3 @@
+[submodule "cuil"]
+	path = cuil
+	url = git@github.com:handicraftsman/cuil.git
