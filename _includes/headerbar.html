@@ -1,42 +1,42 @@
 {% if include.type == "index" %}
-  {% assign index_color = "w3-theme-d2" %}
+  {% assign index_color = "cuil-theme-bg-d2" %}
 {% else %}
-  {% assign index_color = "w3-theme-d4" %}
+  {% assign index_color = "cuil-theme-bg-d4" %}
 {% endif %}
 
 {% if include.type == "tutorial" %}
-  {% assign tutorial_color = "w3-theme-d2" %}
+  {% assign tutorial_color = "cuil-theme-bg-d2" %}
 {%else %}
-  {% assign tutorial_color = "w3-theme-d5" %}
+  {% assign tutorial_color = "cuil-theme-bg-d5" %}
 {% endif %}
 
 {% if include.type == "reference" %}
-  {% assign reference_color = "w3-theme-d2" %}
+  {% assign reference_color = "cuil-theme-bg-d2" %}
 {% else %}
-  {% assign reference_color = "w3-theme-d5" %}
+  {% assign reference_color = "cuil-theme-bg-d5" %}
 {% endif %}
 
 {% if include.type == "about" %}
-  {% assign about_color = "w3-theme-d2" %}
+  {% assign about_color = "cuil-theme-bg-d2" %}
 {% else %}
-  {% assign about_color = "w3-theme-d5" %}
+  {% assign about_color = "cuil-theme-bg-d5" %}
 {% endif %}
 
-<div class="w3-navbar w3-theme-d5 w3-round w3-margin-top w3-card-8">
-  <a class="w3-btn {{index_color}} w3-hover-theme w3-left" href="{{site.baseurl}}/">
+<div class="w3-navbar cuil-theme-bg-d5 w3-round w3-margin-top w3-card-8">
+  <a class="w3-btn {{index_color}} cuil-hover-theme-bg w3-left" href="{{site.baseurl}}/">
     <i class="fa fa-home w3-round"></i> {{ site.title }}
   </a>
-  <a class="w3-btn {{tutorial_color}} w3-hover-theme w3-left" href="{{site.baseurl}}/tutorial/">
+  <a class="w3-btn {{tutorial_color}} cuil-hover-theme-bg w3-left" href="{{site.baseurl}}/tutorial/">
     <i class="fa fa-book"></i> Tutorial
   </a>
-  <a class="w3-btn {{reference_color}} w3-hover-theme w3-left" href="{{site.baseurl}}/reference/">
+  <a class="w3-btn {{reference_color}} cuil-hover-theme-bg w3-left" href="{{site.baseurl}}/reference/">
     <i class="fa fa-archive"></i> Reference
   </a>
 
-  <a class="w3-btn {{about_color}} w3-hover-theme w3-right" href="{{site.baseurl}}/about.html">
+  <a class="w3-btn {{about_color}} cuil-hover-theme-bg w3-right" href="{{site.baseurl}}/about.html">
     <i class="fa fa-info-circle"></i> About
   </a>
-  <a class="w3-btn w3-theme-d5 w3-hover-theme w3-right"
+  <a class="w3-btn cuil-theme-bg-d5 cuil-hover-theme-bg w3-right"
     href="https://github.com/handicraftsman/gogling">
     <i class="fa fa-github"></i> Source Code
   </a>

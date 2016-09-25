@@ -1,20 +1,25 @@
 {% include head.html %}
 {% include headerbar.html type="index" %}
 <div class="w3-card-4 w3-margin">
-  <header class="w3-container w3-theme-d4">
+  <header class="w3-container cuil-theme-bg-d4">
     <h2 class="w3-margin-0">
       <p style="float: left" class="w3-margin-0">
         <i class="fa fa-home" style="font-size: 90%"></i> Home Page
       </p>
     </h2>
     <p style="float: right" class="w3-margin-0">
-      Gogling's Latest Version: <span class="w3-tag w3-theme-d5">{{site.data.gogling.latest_version}}</span><br/>
-      Gogling's Stable Version: <span class="w3-tag w3-theme-d5">{{site.data.gogling.stable_version}}</span>
+      Gogling's Latest Version: <span class="w3-tag cuil-theme-bg-d5">{{site.data.gogling.latest_version}}</span><br/>
+      Gogling's Stable Version: <span class="w3-tag cuil-theme-bg-d5">{{site.data.gogling.stable_version}}</span>
     </p>
   </header>
   <section class="w3-container">
     <p style="float: right">
-      <a class="w3-btn w3-theme-d5 w3-hover-theme" href="https://github.com/handicraftsman/gogling/releases/">
+      <!--
+      <a class="w3-btn cuil-theme-bg-d5 cuil-hover-theme-bg" href="https://github.com/handicraftsman/gogling/releases/">
+        <i class="fa fa-download" aria-hidden="true"></i> Download
+      </a>
+      -->
+      <a class="cuil-btn cuil-btn-theme" href="https://github.com/handicraftsman/gogling/releases/">
         <i class="fa fa-download" aria-hidden="true"></i> Download
       </a>
     </p>
@@ -22,7 +27,7 @@
       {{content}}
     </p>
   </section>
-  <footer class="w3-container w3-theme-d5 w3-padding-4">
+  <footer class="w3-container cuil-theme-bg-d5 w3-padding-4">
     Build status: <a href="https://travis-ci.org/handicraftsman/gogling" style="text-decoration: none;">
       <img src="https://img.shields.io/travis/handicraftsman/gogling/master.svg?label=Master" alt="Master">
       <img src="https://img.shields.io/travis/handicraftsman/gogling/development.svg?label=Development" alt="Development">
