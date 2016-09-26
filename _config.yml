@@ -1,7 +1,7 @@
 title: Gogling
 email: nickolay02@inbox.ru
 description: Just HTTP-server written in Go and with Lua VM
-baseurl: "/gogling"
+baseurl: "/"
 url: "https://handicraftsman.github.io"
 github_username: handicraftsman
 
