@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://handicraftsman.tk/</loc>
+  <lastmod>NotDone</lastmod>
+</url>
+
+<url>
+  <loc>http://handicraftsman.tk/gogling/</loc>
+  <lastmod>NotDone</lastmod>
+</url>
+
+<url>
+  <loc>http://handicraftsman.tk/gogling/tutorial/</loc>
+  <lastmod>NotDone</lastmod>
+</url>
+
+<url>
+  <loc>http://handicraftsman.tk/gogling/tutorial/01_install.html</loc>
+  <lastmod>26-09-2016</lastmod>
+</url>
+
+</urlset>
