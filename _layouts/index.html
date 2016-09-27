@@ -1,18 +1,18 @@
 {% include head.html %}
 {% include headerbar.html type="index" %}
-<div class="w3-card-4 w3-margin">
-  <header class="w3-container cuil-theme-bg-d4">
-    <h2 class="w3-margin-0">
-      <p style="float: left" class="w3-margin-0">
+<div class="cuil-card cuil-shadow-16px cuil-margin-16px">
+  <header class="cuil-container cuil-theme-bg-d4">
+    <h2 class="cuil-margin-0">
+      <p style="float: left" class="cuil-margin-0">
         <i class="fa fa-home" style="font-size: 90%"></i> Home Page
       </p>
     </h2>
-    <p style="float: right" class="w3-margin-0">
+    <p style="float: right" class="cuil-margin-0"> <!-- TODO: PORT THESE TAGS! -->
       Gogling's Latest Version: <span class="w3-tag cuil-theme-bg-d5">{{site.data.gogling.latest_version}}</span><br/>
       Gogling's Stable Version: <span class="w3-tag cuil-theme-bg-d5">{{site.data.gogling.stable_version}}</span>
     </p>
   </header>
-  <section class="w3-container">
+  <section class="cuil-container">
     <p style="float: right">
       <a class="cuil-btn cuil-btn-theme" href="https://github.com/handicraftsman/gogling/releases/">
         <i class="fa fa-download" aria-hidden="true"></i> Download
@@ -21,11 +21,8 @@
     <p style="float: left">
       {{content}}
     </p>
-    <p class="cuil-theme-bg-d5 cuil-padding-4px cuil-margin-0 cuil-bround-tl-4px cuil-bround-tr-4px" style="text-align: center">
-      Why no updates for site? I am just writing new update for Gogling.
-    </p>
   </section>
-  <footer class="w3-container cuil-theme-bg-d5 w3-padding-4">
+  <footer class="cuil-container cuil-theme-bg-d5 cuil-padding-4px">
     Build status: <a href="https://travis-ci.org/handicraftsman/gogling" style="text-decoration: none;">
       <img src="https://img.shields.io/travis/handicraftsman/gogling/master.svg?label=Master" alt="Master">
       <img src="https://img.shields.io/travis/handicraftsman/gogling/development.svg?label=Development" alt="Development">

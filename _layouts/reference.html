@@ -1,0 +1,22 @@
+{% include head.html %}
+{% include headerbar.html type="reference" %}
+<style>
+  ul {
+    list-style-type: none;
+  }
+</style>
+
+<div class="cuil-card cuil-shadow-16px cuil-margin-16px">
+  <header class="cuil-container cuil-theme-bg-d4">
+    <h2 class="cuil-margin-0">
+      <i class="fa fa-archive" style="font-size: 90%"></i> Reference: {{page.title}}
+    </h2>
+  </header>
+  <section class="cuil-container" style="padding-top: 4px; padding-bottom: 4px">
+    {{content}}
+  </section>
+  <!--<footer class="w3-container cuil-theme-bg-d5">
+
+  </footer>-->
+</div>
+{% include footer.html %}
