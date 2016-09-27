@@ -46,11 +46,11 @@ go build -o "gogling" src/*.go
 ### Testing:
 Open [127.0.0.1:8080](http://127.0.0.1:8080) in your browser. You should see something like this:
 
-<img class="w3-card-4 s-image" alt="Gogling's Demo" src="/gogling/img/gogling-tutor-1-1.png">
+<img class="cuil-card cuil-shadow-16px s-image" alt="Gogling's Demo" src="/gogling/img/gogling-tutor-1-1.png">
 
 
 ### Some notes:
-1. It's build-system is designed for GNU/Linux. I don't have PC with Windows/Mac
+1. It's build-script is designed for GNU/Linux. I don't have PC with Windows/Mac
 2. You can combine last 2 steps (3&4) by running:
 
 ```bash

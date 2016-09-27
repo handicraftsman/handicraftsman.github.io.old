@@ -22,7 +22,7 @@ Now open <a href="http://127.0.0.1:8080">127.0.0.1:8080</a> in your browser
 
 #### [Read Tutorial]({{site.baseurl}}/tutorial/ "Tutorial")
 <br/>
-<p class="w3-tiny">
+<p class="cuil-tiny">
   P.S.
   Nope. This site DOES NOT use cookies. Also, how should i implement them on
   static-pages-generator? :-)
