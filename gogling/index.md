@@ -23,7 +23,11 @@ Now open <a href="http://127.0.0.1:8080">127.0.0.1:8080</a> in your browser
 #### [Read Tutorial]({{site.baseurl}}/tutorial/ "Tutorial")
 <br/>
 <p class="w3-tiny">
-  P. S.
+  P.S.
   Nope. This site DOES NOT use cookies. Also, how should i implement them on
   static-pages-generator? :-)
+  <br/>P.P.S. But CloudFlare stores cookie `__cfduid` as described in it's security-policy:
+  <code>
+    As part of our services, CloudFlare may also place cookies on the computers of visitors to your CloudFlare-protected website. We do this to in order to identify malicious visitors, to reduce the chance of blocking legitimate users, and to provide customized services.
+  </code>
 </p>
