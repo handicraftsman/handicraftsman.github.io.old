@@ -20,7 +20,7 @@ layout: index
 ```
 Now open <a href="http://127.0.0.1:8080">127.0.0.1:8080</a> in your browser
 
-#### [Read Tutorial]({{site.baseurl}}/tutorial/ "Tutorial")
+#### [Read Tutorial](/gogling/tutorial/ "Tutorial")
 <br/>
 <p class="cuil-tiny">
   P.S.
