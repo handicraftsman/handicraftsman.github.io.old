@@ -1,0 +1,37 @@
+{% if include.type == "index" %}
+  {% assign index_color = "cuil-btn-on" %}
+{% else %}
+  {% assign index_color = "cuil-theme-bg-d4" %}
+{% endif %}
+
+{% if include.type == "tutorial" %}
+  {% assign tutorial_color = "cuil-theme-bg-d2" %}
+{% endif %}
+
+{% if include.type == "reference" %}
+  {% assign reference_color = "cuil-theme-bg-d2" %}
+{% endif %}
+
+{% if include.type == "about" %}
+  {% assign about_color = "cuil-theme-bg-d2" %}
+{% endif %}
+
+<div class="cuil-navbar cuil-theme-bg-d5 cuil-bround-bl-16px cuil-bround-br-16px cuil-margin-top-0 cuil-card cuil-shadow-8px">
+  <a class="cuil-btn {{index_color}} cuil-hover-theme-bg w3-left" href="/gogling/">
+    <i class="fa fa-home w3-round"></i> {{ site.title }}
+  </a>
+  <a class="cuil-btn {{tutorial_color}} cuil-hover-theme-bg w3-left" href="/gogling/tutorial/">
+    <i class="fa fa-book"></i> Tutorial
+  </a>
+  <a class="cuil-btn {{reference_color}} cuil-hover-theme-bg w3-left" href="/gogling/reference/">
+    <i class="fa fa-archive"></i> Reference
+  </a>
+
+  <a class="cuil-btn {{about_color}} cuil-hover-theme-bg w3-right" href="/gogling/about.html">
+    <i class="fa fa-info-circle"></i> About
+  </a>
+  <a class="cuil-btn cuil-theme-bg-d5 cuil-hover-theme-bg w3-right"
+    href="https://github.com/handicraftsman/gogling">
+    <i class="fa fa-github"></i> Source Code
+  </a>
+</div>

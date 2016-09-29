@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: gogling.index
 ---
 #### Gogling is:
 1. Open-Source & Lightweight HTTP-Server

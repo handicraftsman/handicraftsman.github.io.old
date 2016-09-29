@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: gogling.about
 ---
 
 ### What is Gogling?
