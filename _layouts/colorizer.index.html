@@ -1,0 +1,23 @@
+{% include head.html title="Colorizer"%}
+{% include headerbar.html type="colorizer" %}
+{% include top.html type="colorizer" %}
+
+<div class="cuil-card cuil-shadow-16px cuil-margin-16px">
+  <header class="cuil-container cuil-theme-bg-d4">
+    <h2 class="cuil-margin-0">
+      <p style="float: left" class="cuil-margin-0">
+        <i class="fa fa-paint-brush" style="font-size: 90%"></i> Colorizer
+        <noscript class="cuil-bg-red">
+          Please, enable JavaScript to properly see this page
+        </noscript>
+      </p>
+    </h2>
+  </header>
+  <section class="">
+    {{content}}
+    <iframe id="iFrameResStart" src="http://colorizer.herokuapp.com/" class="cuil-card" style="width: 100%; height: 2000px; size: 80%; margin: 0" frameborder=0>
+
+    </iframe>
+  </section>
+  </div>
+{% include footer.html %}

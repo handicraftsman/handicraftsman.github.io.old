@@ -1,11 +1,22 @@
+{% if include.type == "index" %}
+  {% assign index_color = "cuil-btn-on" %}
+{% else %}
+  {% assign index_color = "cuil-theme-bg-d4" %}
+{% endif %}
+{% if include.type == "colorizer" %}
+  {% assign colorizer_color = "cuil-btn-on" %}
+{% else %}
+  {% assign colorizer_color = "cuil-theme-bg-d4" %}
+{% endif %}
+
 <div class="cuil-navbar cuil-theme-bg-d5 cuil-bround-bl-16px cuil-bround-br-16px cuil-margin-top-0 cuil-card cuil-shadow-8px">
   <a class="cuil-btn {{index_color}} cuil-hover-theme-bg w3-left" href="/">
     <p class="w3-round"><i class="fa fa-home"></i></p>
   </a>
-  <a class="cuil-btn {{tutorial_color}} cuil-hover-theme-bg w3-left" href="/gogling/">
+  <a class="cuil-btn cuil-hover-theme-bg w3-left" href="/gogling/">
     <i class="fa fa-server"></i> Gogling
   </a>
-  <a class="cuil-btn cuil-bg-red w3-right" href="#">
-    <i class="fa fa-paint-brush"></i> Colorizer &lt;WIP&gt;
+  <a class="cuil-btn {{colorizer_color}} cuil-hover-theme-bg" href="/colorizer.html">
+    <i class="fa fa-paint-brush"></i> Colorizer
   </a>
 </div>
